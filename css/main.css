@@ -1,0 +1,462 @@
+
+
+.box {
+  background-color: #8ea86e;
+  color: #fff;
+  text-align: center;
+}
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #d6d6d6;
+}
+
+
+a:link, a:visited { 
+text-decoration:none; 
+}
+
+a:hover, a:active { 
+text-decoration:none; 
+ }
+
+
+.hidden
+{
+  display: none;
+}
+
+
+
+
+
+
+
+/*-- Start Container --*/
+
+.container
+{
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*-- End Container --*/
+
+/*-- Start Header --*/
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logoHeader
+{
+  width: 240px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.mainNav
+{
+  width: 500px;
+  height: 25px;
+  margin-top: 95px;
+  margin-left: auto;
+}
+
+.mainNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+.mainNav ul li {  
+  font-size: 14px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.mainNav ul li a
+{
+  color: #666;
+  padding: 5px;
+}
+
+.mainNav ul li a:hover {
+  padding: 5px;
+  background-color: #ece7b1;
+}
+
+.selected
+{
+  padding: 5px 0px 5px 0px;
+  background-color: #ece7b1;
+}
+
+/*-- End Header --*/
+
+
+
+
+/*-- Start Home page --*/
+.hero
+{
+  height: 384px;
+  width: 980px;
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.heroIndex {
+  background: url(../images/home_header.jpg) no-repeat bottom; 
+}
+
+.heroAbout {
+  background: url(../images/about_header.jpg) no-repeat bottom; 
+}
+
+.heroProtfolio {
+  background: url(../images/protfolio_header.jpg) no-repeat bottom; 
+}
+
+.hero h2
+{
+  color: #fff;
+  font-size: 31px;
+  text-align: center;
+}
+
+.hero h3
+{
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  font-weight:normal;
+  margin-bottom: 20px;
+}
+
+
+
+.Education {
+  flex-direction: row;
+  display: flex;
+  color: #666;
+  margin:50px 80px;
+  padding: 40px 30px;
+  border:1px solid #000
+}
+
+.Education h3{
+  width: 200px;
+  height: 40px;
+  font-size: 28px;
+}
+.TaxtArea {
+  flex-direction: column;
+  display: flex; 
+}
+
+.LeftDetails {
+  width: 300px;
+  height: 140px;
+  font-size: 15px;
+  line-height:25px;
+  margin-top: 30px;
+}
+.LeftEntrance {
+  width: 50px;
+  height: 50px;
+  color: #666;
+  display: block;
+  line-height:20px;
+}
+.bigWord {
+  font-size: 36px;
+}
+
+.smallWord {
+  font-size: 14px;
+}
+
+.PicRight {
+  width:450px;
+  height: 280px;
+}
+
+.Experience {
+  flex-direction: row;
+  display: flex;
+  text-align: right;
+  background-color: #545252;
+  color: white;
+  margin:50px 80px;
+  padding: 40px 30px;
+  border:1px solid #000
+}
+
+.Experience h3 {
+  width: 200px;
+  height: 40px;
+  font-size: 28px;
+  text-align: right;
+  margin-left: 100px;
+}
+
+.PicLeft {
+  width:450px;
+  height: 280px;
+}
+
+.RightDetails {
+  text-align: left;
+  margin-left: 20px;
+  line-height:25px;
+  width: 300px;
+  height: 120px;
+  margin-top: 40px;
+
+}
+.RightEntrance {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height:20px;
+  color: white;
+  margin-left: 250px;
+}
+
+
+.ContactMe {
+  flex-direction: row;
+  display: flex;
+  color: #666;
+  margin:50px 80px;
+  padding: 40px 30px;
+  border:1px solid #000
+}
+
+.ContactMe h3 {
+  font-size: 28px;
+}
+
+.ContactMe p {
+  width: 300px;
+  float: left;
+}
+
+.ContactMe img {
+  float: right;
+  width: 450px;
+  height: 280px;
+  display: block;
+}
+
+.Protfolio {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Protfolio h2 {
+  font-size: 28px;
+  color: #666;
+  margin-left: 80px; 
+  margin-top: 20px;
+}
+
+.Protfolio p {
+  margin-top: 20px;
+  line-height: 22px;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.bacg {
+  flex-direction: row;
+  display: flex;
+  text-align: left;
+  background-color: #545252;
+  color: white;
+  margin:20px 80px;
+  padding: 40px 30px;
+  border:1px solid #000
+}
+
+.protfolioBacg {
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  background-color: #545252;
+  color: white;
+  margin:20px 80px;
+  padding: 40px 30px;
+  border:1px solid #000
+}
+
+.resBut
+{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #FFF;
+  background-color: #d9c05e;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resBut:hover
+{
+  background-color: #ab834e;
+}
+/*-- End Home page --*/
+
+
+
+
+/*-- Start about page --*/
+
+
+.Column {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  color: white;
+  margin: 20px 10px;
+}
+
+.Column h4 {
+  color: white;
+  font-size: 18pt;
+}
+
+.secondTitle {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.AboutPic {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 20px;
+}
+/*-- End about page --*/
+
+
+
+
+/*-- Start protfolio page --*/
+
+.videos {
+  flex-direction: column;
+  display: flex;
+}
+.displayRow {
+  flex-direction: row;
+  display: flex;
+}
+
+.videos h3 {
+  font-size: 20px;
+}
+.videos video {
+  margin:20px 5px;
+}
+
+.videos img {
+  margin:20px 5px;
+}
+
+
+
+
+/*-- End protfolio page --*/
+
+
+/*-- Start Footer --*/
+
+.mainFooter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0px 20px;
+  background-color: #ccc;
+  justify-content: flex-start;
+  height: 125px;
+  background: url(../images/footer_bg.jpg) repeat-x;
+}
+
+.LogoNav {
+  display: flex;
+  flex-direction: column;
+}
+.LogoNav p {
+  margin:20px auto 5px 20px;
+  color: #666;
+  line-height:3px;
+  font-size: 8pt;
+
+}
+
+
+
+.footerNav {
+  width: 380px;
+  height: 25px;
+  font-size: 24pt;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.footerNav ul {
+  padding: 0;
+  list-style-type: none;
+  width: 500px;
+  margin-left: 0;
+}
+
+.footerNav ul li { 
+  cursor: pointer;
+  display: inline;
+  margin-right: 25px;
+  font-size: 12px;  
+}
+
+.footerNav ul li a {
+  color: #333;
+}
+
+.footerNav ul li a:hover {
+  color: #999;
+}
+
+.footerlogo {
+  height: 120px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: 60px;
+}
